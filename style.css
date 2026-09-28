@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+.pp img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.button-container {
+  position: absolute;
+  top: 53%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration:none;
+}
+
+.login {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
+.login:hover {
+  background-color:grey;
+  
+}
+.login-link {
+  text-decoration: none;
+}
+
+h1{
+  color:yellow;
+}
